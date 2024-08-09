@@ -1,0 +1,29 @@
+.signup-form{
+    width: 400px; 
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 0 20px 5px rgb(177, 173, 173);
+}
+.contact-number{
+    display: flex;
+    position: relative;
+}
+.contact-number .country-code{
+   position: relative;
+   top: 5px;
+}
+.username button{
+    color: rgb(18, 90, 90);
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: large;
+    cursor: pointer;
+   
+}
+
+.username button:hover{
+    box-shadow: 0 0 10px 5px rgb(167, 159, 159);
+}
